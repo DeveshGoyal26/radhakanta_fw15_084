@@ -11,6 +11,8 @@ import Search from './sprint-1/day-1/assignments/Assign2/Search';
 import Settings from './sprint-1/day-1/assignments/Assign2/Settings';
 import Card_create from './sprint-1/day-3/assignments/Prob1/CreateCard';
 import GiftCard from './sprint-1/day-3/assignments/Prob1/Gift_card';
+import Rest from './sprint-1/day-3/assignments/Prob2/RestorantDetails';
+import RestorentDetails from './sprint-1/day-3/assignments/Prob2/RestorantDetails';
 
 
 function App() {
@@ -33,8 +35,12 @@ function App() {
 
       {/* Day 3 */}
 
-      <div><Card_create/></div>
-     <div> <GiftCard/></div>
+      {/* <div><Card_create/></div>
+     <div> <GiftCard/></div> */}
+
+     {/* Prob2 */}
+
+     <Rest/>
 
       </div> 
     </>
